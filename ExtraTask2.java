@@ -8,13 +8,13 @@ public class ExtraTask2 {
         int sum2 = 0;
 
 
-        for (int i = 0; i < ar.length; i++) {
-                sum1 += ar[i];
-            }
+        for (int j : ar) {
+            sum1 += j;
+        }
         System.out.println(sum1);
 
-        for (int i = 0; i < arr.length; i++) {
-            sum2 += arr[i];
+        for (int j : arr) {
+            sum2 += j;
         }
         System.out.println(sum2);
 
